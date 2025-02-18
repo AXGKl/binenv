@@ -6,6 +6,7 @@ chmod +x binenv
 ./binenv update
 ./binenv install binenv
 rm binenv
+rm checksums.txt
 if [[ -n $BASH ]]; then ZESHELL=bash; fi
 if [[ -n $ZSH_NAME ]]; then ZESHELL=zsh; fi
 echo "$ZESHELL"
