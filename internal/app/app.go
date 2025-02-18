@@ -78,10 +78,8 @@ type jobResult struct {
 	versions     []string
 }
 
-var (
-	// ErrAlreadyInstalled is returned when the requested version is already installed
-	ErrAlreadyInstalled = errors.New("version already installed")
-)
+// ErrAlreadyInstalled is returned when the requested version is already installed
+var ErrAlreadyInstalled = errors.New("version already installed")
 
 // New creates a new App
 func New() (*App, error) {
@@ -1301,7 +1299,6 @@ func (a *App) loadCache() {
 	}
 
 	err = json.Unmarshal([]byte(js), &a.cache)
-
 	if err != nil {
 		a.logger.Error().Err(err).Msgf(`unable to unmarshal cache %s; try to "rm %s && binenv update"`, conf, conf)
 		return
