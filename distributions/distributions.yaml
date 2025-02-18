@@ -265,12 +265,12 @@ sources:
 
   binenv:
     description: One binary to rule them all. Manage all those pesky binaries (kubectl, helm, terraform, ...) easily.
-    url: https://github.com/devops-works/binenv/
+    url: https://github.com/axgkl/binenv/
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/binenv/releases
+      url: https://api.github.com/repos/axgkl/binenv/releases
     fetch:
-      url: https://github.com/devops-works/binenv/releases/download/v{{ .Version }}/binenv_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
+      url: https://github.com/axgkl/binenv/releases/download/v{{ .Version }}/binenv_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
     install:
       type: direct
     supported_platforms:
@@ -1051,12 +1051,12 @@ sources:
 
   dw-query-digest:
     description: MySQL slow log analyzer. Alternative to pt-query-digest.
-    url: https://github.com/devops-works/
+    url: https://github.com/axgkl/
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/dw-query-digest/releases
+      url: https://api.github.com/repos/axgkl/dw-query-digest/releases
     fetch:
-      url: https://github.com/devops-works/dw-query-digest/releases/download/v{{ .Version }}/dw-query-digest_{{ .Version }}_{{ .OS }}_{{ .Arch }}.tar.gz
+      url: https://github.com/axgkl/dw-query-digest/releases/download/v{{ .Version }}/dw-query-digest_{{ .Version }}_{{ .OS }}_{{ .Arch }}.tar.gz
     install:
       type: tgz
       binaries:
@@ -1064,14 +1064,14 @@ sources:
 
   egress-auditor:
     description: Audit your egress connections and finally populate this OUTPUT chain !
-    url: https://github.com/devops-works/egress-auditor
+    url: https://github.com/axgkl/egress-auditor
     map:
       i386: "386"
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/egress-auditor/releases
+      url: https://api.github.com/repos/axgkl/egress-auditor/releases
     fetch:
-      url: https://github.com/devops-works/egress-auditor/releases/download/v{{ .Version }}/egress-auditor_{{ .OS }}_{{ .Arch }}
+      url: https://github.com/axgkl/egress-auditor/releases/download/v{{ .Version }}/egress-auditor_{{ .OS }}_{{ .Arch }}
     install:
       type: direct
     supported_platforms:
@@ -3039,14 +3039,14 @@ sources:
 
   mygopherhose:
     description: Faster import for mysqldumps
-    url: https://github.com/devops-works/mygopherhose/
+    url: https://github.com/axgkl/mygopherhose/
     map:
       i386: 386
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/mygopherhose/releases
+      url: https://api.github.com/repos/axgkl/mygopherhose/releases
     fetch:
-      url: https://github.com/devops-works/mygopherhose/releases/download/v{{ .Version }}/mygopherhose_{{ .OS }}_{{ .Arch }}
+      url: https://github.com/axgkl/mygopherhose/releases/download/v{{ .Version }}/mygopherhose_{{ .OS }}_{{ .Arch }}
     install:
       type: direct
     supported_platforms:
@@ -3293,12 +3293,12 @@ sources:
 
   pass-checker:
     description: Get the entropy of your password, the maximum time needed to break it, and if the SHA1 sum appears in HaveIBeenPwned.com API.
-    url: https://github.com/devops-works/pass-checker/
+    url: https://github.com/axgkl/pass-checker/
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/pass-checker/releases
+      url: https://api.github.com/repos/axgkl/pass-checker/releases
     fetch:
-      url: https://github.com/devops-works/pass-checker/releases/download/v{{ .Version }}/pass-checker_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
+      url: https://github.com/axgkl/pass-checker/releases/download/v{{ .Version }}/pass-checker_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
     install:
       type: direct
 
@@ -3366,12 +3366,12 @@ sources:
 
   phpsecscan:
     description: PHP vulnerability scanner (standalone or as a webserver) using FoP advisories
-    url: https://github.com/devops-works/
+    url: https://github.com/axgkl/
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/phpsecscan/releases
+      url: https://api.github.com/repos/axgkl/phpsecscan/releases
     fetch:
-      url: https://github.com/devops-works/phpsecscan/releases/download/v{{ .Version }}/phpsecscan_{{ .Version }}_{{ .OS }}_{{ .Arch }}.tar.gz
+      url: https://github.com/axgkl/phpsecscan/releases/download/v{{ .Version }}/phpsecscan_{{ .Version }}_{{ .OS }}_{{ .Arch }}.tar.gz
     install:
       type: tgz
       binaries:
@@ -3660,12 +3660,12 @@ sources:
 
   scan-exporter:
     description: Scans targets and exposes results to Prometheus.
-    url: https://github.com/devops-works/
+    url: https://github.com/axgkl/
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/scan-exporter/releases
+      url: https://api.github.com/repos/axgkl/scan-exporter/releases
     fetch:
-      url: https://github.com/devops-works/scan-exporter/releases/download/v{{ .Version }}/scan-exporter_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
+      url: https://github.com/axgkl/scan-exporter/releases/download/v{{ .Version }}/scan-exporter_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
     install:
       type: direct
 
@@ -3806,14 +3806,14 @@ sources:
       A package to parse slow query logs in Go, with associated tooling
       (digester, replayer...), and compatible with multiple databases (MySQL,
       MariaDB, PerconaDB...).
-    url: https://github.com/devops-works/slowql/
+    url: https://github.com/axgkl/slowql/
     map:
       i386: "386"
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/slowql/releases
+      url: https://api.github.com/repos/axgkl/slowql/releases
     fetch:
-      url: https://github.com/devops-works/slowql/releases/download/v{{ .Version }}/digest_{{ .OS }}_{{ .Arch }}
+      url: https://github.com/axgkl/slowql/releases/download/v{{ .Version }}/digest_{{ .OS }}_{{ .Arch }}
     install:
       type: direct
     supported_platforms:
@@ -3833,14 +3833,14 @@ sources:
       A package to parse slow query logs in Go, with associated tooling
       (digester, replayer...), and compatible with multiple databases (MySQL,
       MariaDB, PerconaDB...).
-    url: https://github.com/devops-works/slowql/
+    url: https://github.com/axgkl/slowql/
     map:
       i386: "386"
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/slowql/releases
+      url: https://api.github.com/repos/axgkl/slowql/releases
     fetch:
-      url: https://github.com/devops-works/slowql/releases/download/v{{ .Version }}/replayer_{{ .OS }}_{{ .Arch }}
+      url: https://github.com/axgkl/slowql/releases/download/v{{ .Version }}/replayer_{{ .OS }}_{{ .Arch }}
     install:
       type: direct
     supported_platforms:
@@ -4193,12 +4193,12 @@ sources:
 
   telegraf-tailcount:
     description: Counts new lines in growing file and return InfluxDB metrics on STDOUT.
-    url: https://github.com/devops-works/telegraf-tailcount/
+    url: https://github.com/axgkl/telegraf-tailcount/
     list:
       type: github-releases
-      url: https://api.github.com/repos/devops-works/telegraf-tailcount/releases
+      url: https://api.github.com/repos/axgkl/telegraf-tailcount/releases
     fetch:
-      url: https://github.com/devops-works/telegraf-tailcount/releases/download/v{{ .Version }}/telegraf-tailcount_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
+      url: https://github.com/axgkl/telegraf-tailcount/releases/download/v{{ .Version }}/telegraf-tailcount_{{ .OS }}_{{ .Arch }}{{ .ExeExtension }}
     install:
       type: direct
     supported_platforms:

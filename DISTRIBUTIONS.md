@@ -16,7 +16,7 @@
 - [awstaghelper](https://github.com/mpostument/awstaghelper/): AWS bulk tagging tool
 - [bat](https://github.com/sharkdp/bat/): A cat(1) clone with wings.
 - [batect](https://batect.dev/): Build And Testing Environments as Code Tool
-- [binenv](https://github.com/devops-works/binenv/): One binary to rule them all. Manage all those pesky binaries (kubectl, helm, terraform, ...) easily.
+- [binenv](https://github.com/axgkl/binenv/): One binary to rule them all. Manage all those pesky binaries (kubectl, helm, terraform, ...) easily.
 - [bomberman](https://github.com/c1982/bomberman/): SMTP Performance and Load Test Tool
 - [bottom](https://github.com/ClementTsang/bottom/): Yet another cross-platform graphical process/system monitor.
 - [broot](https://github.com/Canop/broot/): A new way to see and navigate directory trees
@@ -60,8 +60,8 @@
 - [dstask-import](https://github.com/naggie/dstask/): Single binary terminal-based todo manager with git-based sync + markdown notes per task (import tool)
 - [duf](https://github.com/muesli/duf/): Disk Usage/Free Utility
 - [dust](https://github.com/bootandy/dust/): A more intuitive version of du in rust
-- [dw-query-digest](https://github.com/devops-works/): MySQL slow log analyzer. Alternative to pt-query-digest.
-- [egress-auditor](https://github.com/devops-works/egress-auditor): Audit your egress connections and finally populate this OUTPUT chain !
+- [dw-query-digest](https://github.com/axgkl/): MySQL slow log analyzer. Alternative to pt-query-digest.
+- [egress-auditor](https://github.com/axgkl/egress-auditor): Audit your egress connections and finally populate this OUTPUT chain !
 - [eksctl](https://github.com/weaveworks/eksctl/): eksctl is a simple CLI tool for creating clusters on AWS EKS.
 - [exa](https://github.com/ogham/exa/): A modern replacement for ‘ls’.
 - [exo](https://github.com/exoscale/cli/): Command-line tool for everything at Exoscale: compute, storage, dns.
@@ -182,7 +182,7 @@
 - [miller](https://github.com/johnkerl/miller/): Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV
 - [minikube](https://github.com/kubernetes/minikube/): Run Kubernetes locally
 - [mizu](https://github.com/up9inc/mizu/): Replaced by kubeshark
-- [mygopherhose](https://github.com/devops-works/mygopherhose/): Faster import for mysqldumps
+- [mygopherhose](https://github.com/axgkl/mygopherhose/): Faster import for mysqldumps
 - [mysql_random_data_load](https://github.com/Percona-Lab/mysql_random_data_load/): MySQL random data loader
 - [naabu](https://github.com/projectdiscovery/naabu/): A fast port scanner written in go with focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests
 - [node-problem-detector](https://github.com/kubernetes/node-problem-detector/): This is a place for various problem detectors running on the Kubernetes nodes.
@@ -195,12 +195,12 @@
 - [packer](https://www.packer.io/): Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 - [pandoc-plot](https://laurentrdc.github.io/pandoc-plot/): Render and include figures in Pandoc documents using your plotting toolkit of choice
 - [parca](https://github.com/parca-dev/parca/): Continuous profiling for analysis of CPU, memory usage over time, and down to the line number. Saving infrastructure cost, improving performance, and increasing reliability.
-- [pass-checker](https://github.com/devops-works/pass-checker/): Get the entropy of your password, the maximum time needed to break it, and if the SHA1 sum appears in HaveIBeenPwned.com API.
+- [pass-checker](https://github.com/axgkl/pass-checker/): Get the entropy of your password, the maximum time needed to break it, and if the SHA1 sum appears in HaveIBeenPwned.com API.
 - [peco](https://github.com/peco/peco/): Simplistic interactive filtering tool
 - [peirates](https://www.inguardians.com/peirates/): Peirates - Kubernetes Penetration Testing tool
 - [pet](https://github.com/knqyf263/pet): Simple command-line snippet manager, written in Go.
 - [pgmetrics](https://pgmetrics.io/): Collect and display information and stats from a running PostgreSQL server
-- [phpsecscan](https://github.com/devops-works/): PHP vulnerability scanner (standalone or as a webserver) using FoP advisories
+- [phpsecscan](https://github.com/axgkl/): PHP vulnerability scanner (standalone or as a webserver) using FoP advisories
 - [pint](https://github.com/cloudflare/pint/): Prometheus rule linter
 - [plow](https://github.com/six-ddc/plow/): A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying
 - [pluto](https://github.com/FairwindsOps/pluto/): A cli tool to help discover deprecated apiVersions in Kubernetes
@@ -219,7 +219,7 @@
 - [rga](https://github.com/phiresky/ripgrep-all/): ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz
 - [ruflood](https://github.com/zegkljan/ruflood/): Helping Ukraine by flooding russian state-controlled media/bureau/bank websites.
 - [saml2aws](https://github.com/Versent/saml2aws/): CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP
-- [scan-exporter](https://github.com/devops-works/): Scans targets and exposes results to Prometheus.
+- [scan-exporter](https://github.com/axgkl/): Scans targets and exposes results to Prometheus.
 - [sd](https://github.com/chmln/sd/): Intuitive find & replace CLI (sed alternative)
 - [shaloc](https://github.com/eze-kiel/shaloc/): LAN-scoped command line sharing tool with cool features (zip archives, AES-256, download limits...).
 - [shdotenv](https://github.com/ko1nksm/shdotenv/): dotenv support for shell and POSIX-compliant .env syntax specification.
@@ -227,8 +227,8 @@
 - [skaffold](https://skaffold.dev/): Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most writing code.
 - [slides](https://maaslalani.com/slides/): Terminal based presentation tool
 - [sloop](https://github.com/salesforce/sloop/): Kubernetes History Visualization
-- [slowql-digest](https://github.com/devops-works/slowql/): A package to parse slow query logs in Go, with associated tooling (digester, replayer...), and compatible with multiple databases (MySQL, MariaDB, PerconaDB...).
-- [slowql-replayer](https://github.com/devops-works/slowql/): A package to parse slow query logs in Go, with associated tooling (digester, replayer...), and compatible with multiple databases (MySQL, MariaDB, PerconaDB...).
+- [slowql-digest](https://github.com/axgkl/slowql/): A package to parse slow query logs in Go, with associated tooling (digester, replayer...), and compatible with multiple databases (MySQL, MariaDB, PerconaDB...).
+- [slowql-replayer](https://github.com/axgkl/slowql/): A package to parse slow query logs in Go, with associated tooling (digester, replayer...), and compatible with multiple databases (MySQL, MariaDB, PerconaDB...).
 - [snowcat](https://github.com/praetorian-inc/snowcat): a tool to audit the istio service mesh
 - [sonobuoy](https://github.com/vmware-tanzu/sonobuoy): Sonobuoy is a diagnostic tool that makes it easier to understand the state of a Kubernetes cluster by running a set of Kubernetes conformance tests and other plugins in an accessible and non-destructive manner.
 - [sops](https://github.com/getsops/sops/): Simple and flexible tool for managing secrets
@@ -251,7 +251,7 @@
 - [tanka](https://github.com/grafana/tanka/): Flexible, reusable and concise configuration for Kubernetes
 - [task](https://github.com/go-task/task/): A task runner / simpler Make alternative written in Go
 - [taskctl](https://github.com/taskctl/taskctl/): simple modern alternative to GNU Make.
-- [telegraf-tailcount](https://github.com/devops-works/telegraf-tailcount/): Counts new lines in growing file and return InfluxDB metrics on STDOUT.
+- [telegraf-tailcount](https://github.com/axgkl/telegraf-tailcount/): Counts new lines in growing file and return InfluxDB metrics on STDOUT.
 - [telepresence](https://www.telepresence.io/): Fast, local development for Kubernetes and OpenShift microservices.
 - [teler](https://github.com/kitabisa/teler/): Real-time HTTP Intrusion Detection
 - [templ](https://github.com/a-h/templ/): A language for writing HTML user interfaces in Go.

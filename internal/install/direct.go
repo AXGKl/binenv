@@ -1,6 +1,6 @@
 package install
 
-import "github.com/devops-works/binenv/internal/mapping"
+import "github.com/axgkl/binenv/internal/mapping"
 
 // Direct installs directly downloaded binaries
 type Direct struct {

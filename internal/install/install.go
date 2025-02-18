@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/devops-works/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/mapping"
 )
 
 // ErrNoMatch is returned when not file patched binaries specs

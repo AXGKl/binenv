@@ -13,7 +13,7 @@ RUN useradd -ms /bin/bash binenv
 USER binenv
 WORKDIR /home/binenv
 
-RUN wget -q https://github.com/devops-works/binenv/releases/latest/download/binenv_linux_amd64 -O binenv && \
+RUN wget -q https://github.com/axgkl/binenv/releases/latest/download/binenv_linux_amd64 -O binenv && \
     chmod +x binenv && \
     ./binenv update && \
     ./binenv install binenv && \

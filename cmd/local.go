@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/devops-works/binenv/internal/app"
+	"github.com/axgkl/binenv/internal/app"
 )
 
 // localCmd represents the local command

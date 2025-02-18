@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/devops-works/binenv/internal/mapping"
-	"github.com/devops-works/binenv/internal/tpl"
+	"github.com/axgkl/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/tpl"
 )
 
 // Tgz handles zip files

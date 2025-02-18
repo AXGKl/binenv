@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/devops-works/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/mapping"
 )
 
 // Fetcher should implement fetching a release from a version

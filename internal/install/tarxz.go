@@ -9,8 +9,8 @@ import (
 
 	"github.com/xi2/xz"
 
-	"github.com/devops-works/binenv/internal/mapping"
-	"github.com/devops-works/binenv/internal/tpl"
+	"github.com/axgkl/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/tpl"
 )
 
 // TarXZ handles xz files

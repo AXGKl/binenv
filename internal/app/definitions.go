@@ -1,11 +1,11 @@
 package app
 
 import (
-	"github.com/devops-works/binenv/internal/fetch"
-	"github.com/devops-works/binenv/internal/install"
-	"github.com/devops-works/binenv/internal/list"
-	"github.com/devops-works/binenv/internal/mapping"
-	"github.com/devops-works/binenv/internal/platform"
+	"github.com/axgkl/binenv/internal/fetch"
+	"github.com/axgkl/binenv/internal/install"
+	"github.com/axgkl/binenv/internal/list"
+	"github.com/axgkl/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/platform"
 )
 
 // Distributions holds the list of available software sources

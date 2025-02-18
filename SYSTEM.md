@@ -36,13 +36,13 @@ Note: instructions for BSD systems have not been tested.
 ### Ansible
 
 If you want to use ansible to deploy binenv in global mode on servers, we have
-you [covered](https://github.com/devops-works/ansible-binenv).
+you [covered](https://github.com/axgkl/ansible-binenv).
 
 ### Linux (bash/zsh)
 
 ```
-wget -q https://github.com/devops-works/binenv/releases/latest/download/binenv_linux_amd64
-wget -q https://github.com/devops-works/binenv/releases/latest/download/checksums.txt
+wget -q https://github.com/axgkl/binenv/releases/latest/download/binenv_linux_amd64
+wget -q https://github.com/axgkl/binenv/releases/latest/download/checksums.txt
 sha256sum  --check --ignore-missing checksums.txt
 mv binenv_linux_amd64 binenv
 chmod +x ./binenv
@@ -59,8 +59,8 @@ exec $SHELL
 ### MacOS (with bash)
 
 ```
-wget -q https://github.com/devops-works/binenv/releases/latest/download/binenv_darwin_amd64
-wget -q https://github.com/devops-works/binenv/releases/latest/download/checksums.txt
+wget -q https://github.com/axgkl/binenv/releases/latest/download/binenv_darwin_amd64
+wget -q https://github.com/axgkl/binenv/releases/latest/download/checksums.txt
 sha256sum  --check --ignore-missing checksums.txt
 mv binenv_darwin_amd64 binenv
 chmod +x binenv
@@ -78,8 +78,8 @@ binenv does not support windows.
 ### FreeBSD (bash/zsh)
 
 ```
-fetch https://github.com/devops-works/binenv/releases/latest/download/binenv_freebsd_amd64
-fetch https://github.com/devops-works/binenv/releases/latest/download/checksums.txt
+fetch https://github.com/axgkl/binenv/releases/latest/download/binenv_freebsd_amd64
+fetch https://github.com/axgkl/binenv/releases/latest/download/checksums.txt
 shasum --ignore-missing -a 512 -c checksums.txt
 mv binenv_freebsd_amd64 binenv
 chmod +x binenv
@@ -100,8 +100,8 @@ To be able to verify checksums, you have to install the `p5-Digest-SHA` package.
 ### OpenBSD (bash/zsh)
 
 ```
-ftp https://github.com/devops-works/binenv/releases/latest/download/binenv_openbsd_amd64
-ftp https://github.com/devops-works/binenv/releases/latest/download/checksums.txt
+ftp https://github.com/axgkl/binenv/releases/latest/download/binenv_openbsd_amd64
+ftp https://github.com/axgkl/binenv/releases/latest/download/checksums.txt
 cksum -a sha256 -C checksums.txt binenv_openbsd_amd64
 mv binenv_openbsd_amd64 binenv
 chmod +x binenv

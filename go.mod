@@ -1,4 +1,4 @@
-module github.com/devops-works/binenv
+module github.com/axgkl/binenv
 
 go 1.22
 

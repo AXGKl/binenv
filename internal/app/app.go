@@ -22,13 +22,13 @@ import (
 	"github.com/schollz/progressbar/v3"
 	"gopkg.in/yaml.v2"
 
-	"github.com/devops-works/binenv/internal/fetch"
-	"github.com/devops-works/binenv/internal/install"
-	"github.com/devops-works/binenv/internal/list"
+	"github.com/axgkl/binenv/internal/fetch"
+	"github.com/axgkl/binenv/internal/install"
+	"github.com/axgkl/binenv/internal/list"
 
 	"github.com/logrusorgru/aurora"
 
-	"github.com/devops-works/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/mapping"
 )
 
 // Where to fetch distribution list and cached version
@@ -37,8 +37,8 @@ import (
 // Since master is always behind (or at) develop, it ensures we always have
 // cache for listed entries
 const (
-	distributionsURL = "https://raw.githubusercontent.com/devops-works/binenv/master/distributions/distributions.yaml"
-	cacheURL         = "https://raw.githubusercontent.com/devops-works/binenv/develop/distributions/cache.json"
+	distributionsURL = "https://raw.githubusercontent.com/axgkl/binenv/master/distributions/distributions.yaml"
+	cacheURL         = "https://raw.githubusercontent.com/axgkl/binenv/develop/distributions/cache.json"
 	globalBindir     = "/var/lib/binenv"
 	globalCachedir   = "/var/cache/binenv"
 	globalConfigdir  = "/var/lib/binenv/config"

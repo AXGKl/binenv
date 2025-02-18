@@ -8,7 +8,7 @@ import (
 
 	"github.com/xi2/xz"
 
-	"github.com/devops-works/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/mapping"
 )
 
 // XZ handles xz files

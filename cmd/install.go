@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/devops-works/binenv/internal/app"
+	"github.com/axgkl/binenv/internal/app"
 	"github.com/spf13/cobra"
 )
 

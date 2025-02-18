@@ -70,8 +70,8 @@ See [System-wide installation](./SYSTEM.md) for system-wide installations
 ### Linux (bash/zsh)
 
 ```
-wget -q https://github.com/devops-works/binenv/releases/download/v0.19.11/binenv_linux_amd64
-wget -q https://github.com/devops-works/binenv/releases/download/v0.19.11/checksums.txt
+wget -q https://github.com/axgkl/binenv/releases/download/v0.19.11/binenv_linux_amd64
+wget -q https://github.com/axgkl/binenv/releases/download/v0.19.11/checksums.txt
 sha256sum  --check --ignore-missing checksums.txt
 mv binenv_linux_amd64 binenv
 chmod +x binenv
@@ -89,8 +89,8 @@ exec $SHELL
 ### MacOS (with bash)
 
 ```
-wget -q https://github.com/devops-works/binenv/releases/download/v0.19.11/binenv_darwin_amd64
-wget -q https://github.com/devops-works/binenv/releases/download/v0.19.11/checksums.txt
+wget -q https://github.com/axgkl/binenv/releases/download/v0.19.11/binenv_darwin_amd64
+wget -q https://github.com/axgkl/binenv/releases/download/v0.19.11/checksums.txt
 sha256sum  --check --ignore-missing checksums.txt
 mv binenv_darwin_amd64 binenv
 chmod +x binenv
@@ -109,8 +109,8 @@ binenv does not support windows.
 ### FreeBSD (bash/zsh)
 
 ```
-fetch https://github.com/devops-works/binenv/releases/download/v0.19.11/binenv_freebsd_amd64
-fetch https://github.com/devops-works/binenv/releases/download/v0.19.11/checksums.txt
+fetch https://github.com/axgkl/binenv/releases/download/v0.19.11/binenv_freebsd_amd64
+fetch https://github.com/axgkl/binenv/releases/download/v0.19.11/checksums.txt
 shasum --ignore-missing -a 512 -c checksums.txt
 mv binenv_freebsd_amd64 binenv
 chmod +x binenv
@@ -132,8 +132,8 @@ To be able to verify checksums, you have to install the `p5-Digest-SHA` package.
 ### OpenBSD (bash/zsh)
 
 ```
-ftp https://github.com/devops-works/binenv/releases/download/v0.19.11/binenv_openbsd_amd64
-ftp https://github.com/devops-works/binenv/releases/download/v0.19.11/checksums.txt
+ftp https://github.com/axgkl/binenv/releases/download/v0.19.11/binenv_openbsd_amd64
+ftp https://github.com/axgkl/binenv/releases/download/v0.19.11/checksums.txt
 cksum -a sha256 -C checksums.txt binenv_openbsd_amd64
 mv binenv_openbsd_amd64 binenv
 chmod +x binenv
@@ -155,10 +155,10 @@ If you are using a different shell, skip adding completion to your `.${SHELL}rc`
 ### User install
 
 - download a suitable `binenv` (yes, but wait !) for your architecture/OS at
-http://github.com/devops-works/binenv/releases.
+http://github.com/axgkl/binenv/releases.
 
 ```
-wget -q https://github.com/devops-works/binenv/releases/download/v0.19.11/binenv_<OS>_<ARCH>
+wget -q https://github.com/axgkl/binenv/releases/download/v0.19.11/binenv_<OS>_<ARCH>
 ```
 
 - rename it
@@ -224,7 +224,7 @@ For the whole list of supported binaries (a.k.a. distributions), see
 [DISTRIBUTIONS.md](DISTRIBUTIONS.md).
 
 The always up-to-date list is
-[here](https://github.com/devops-works/binenv/blob/master/distributions/distributions.yaml).
+[here](https://github.com/axgkl/binenv/blob/master/distributions/distributions.yaml).
 
 The list can be generated as markdown using `make distributions`.
 
@@ -278,7 +278,7 @@ export GITHUB_TOKEN=aaa...bbb
 #### Update available distributions
 
 Distributions are maintained in this
-[file](https://github.com/devops-works/binenv/blob/master/distributions/distributions.yaml).
+[file](https://github.com/axgkl/binenv/blob/master/distributions/distributions.yaml).
 
 To benefit from new additions, you need to update the distribution list from
 time to time.
@@ -683,7 +683,7 @@ A nice alternative exists:
 
 ## Distributions file format
 
-[distributions.yaml](https://github.com/devops-works/binenv/blob/develop/distributions/distributions.yaml)
+[distributions.yaml](https://github.com/axgkl/binenv/blob/develop/distributions/distributions.yaml)
 contains all the distributions supported by `binenv`, and how to fetch them. It
 is written in YAML and is defined by the scheme below.
 
@@ -719,7 +719,7 @@ sources:
       type: <string>
 
       # Where to fetch the releases.
-      # I.e. https://github.com/devops-works/binenv/releases
+      # I.e. https://github.com/axgkl/binenv/releases
       url: <string>
 
     # fetch holds the URL from where the binaries can be downloaded.
@@ -823,7 +823,7 @@ sources:
         arch: amd64
 ```
 
-The `distributions.yaml` file used by default by `binenv` is located [here](https://github.com/devops-works/binenv/blob/develop/distributions/distributions.yaml), don't hesitate to have a look on it's structure.
+The `distributions.yaml` file used by default by `binenv` is located [here](https://github.com/axgkl/binenv/blob/develop/distributions/distributions.yaml), don't hesitate to have a look on it's structure.
 
 ## Caveats
 

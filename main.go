@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/devops-works/binenv/cmd"
+	"github.com/axgkl/binenv/cmd"
 )
 
 func main() {

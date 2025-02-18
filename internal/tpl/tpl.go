@@ -8,7 +8,7 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/devops-works/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/mapping"
 	gov "github.com/hashicorp/go-version"
 )
 

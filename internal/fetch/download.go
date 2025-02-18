@@ -11,8 +11,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/schollz/progressbar/v3"
 
-	"github.com/devops-works/binenv/internal/mapping"
-	"github.com/devops-works/binenv/internal/tpl"
+	"github.com/axgkl/binenv/internal/mapping"
+	"github.com/axgkl/binenv/internal/tpl"
 )
 
 // Download handles direct binary releases
