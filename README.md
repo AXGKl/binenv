@@ -2,6 +2,19 @@
 
 The last binary you'll ever install.
 
+---
+
+> ## ❗Forked Version❗
+
+> - Just with [linux/darwin amd64/arm](./goreleaser.yml) builds
+> - Curated [distributions.yaml](./distributions/distributions.yaml) file
+> - One line installer
+
+```bash
+curl -s 'https://raw.githubusercontent.com/axgkl/binenv/refs/heads/develop/scripts/install.sh' | bash
+```
+---
+
 - [binenv](#binenv)
   - [What](#what)
   - [Quick start](#quick-start)
