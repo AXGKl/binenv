@@ -11,11 +11,10 @@ release:
   import os
   from datetime import datetime as dt
   vers = os.popen('git tag').read().splitlines()
-  bv = dt.today().strftime('%Y.%m.%d')
-  for i in range(1000):
-    v = f'{bv}.{i} '.split('.0 ')[0].strip()
-    if v not in vers:
-      break
+  v = 'v' + dt.today().strftime('%Y.%m.%d').replace('.0', '.')
+  if v in vers:
+    print('version already exists - removing')
+    os.system(f'git tag -d {v}; git push origin --delete {v}')
   os.system(f'git tag {v} && git push origin {v}')
 
 [script]
